@@ -1,0 +1,51 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "antd-switch-value": {
+      "projectType": "library",
+      "root": "projects/antd-switch-value",
+      "sourceRoot": "projects/antd-switch-value/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/antd-switch-value/tsconfig.lib.json",
+            "project": "projects/antd-switch-value/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/antd-switch-value/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/antd-switch-value/src/test.ts",
+            "tsConfig": "projects/antd-switch-value/tsconfig.spec.json",
+            "karmaConfig": "projects/antd-switch-value/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/antd-switch-value/tsconfig.lib.json",
+              "projects/antd-switch-value/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "antd-switch-value"
+}
