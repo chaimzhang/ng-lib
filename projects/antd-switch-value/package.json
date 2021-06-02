@@ -5,7 +5,18 @@
     "@angular/common": "^11.2.14",
     "@angular/core": "^11.2.14"
   },
+  "author": {
+    "name": "chaimzhang",
+    "url": "https://github.com/chaimzhang/ng-lib/tree/main/projects/antd-switch-value",
+    "email": "zhang.qm@qq.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "tslib": "^2.0.0"
-  }
+  },
+  "keywords": [
+    "angular",
+    "ng-zorro-antd",
+    "nz-switch"
+  ]
 }
