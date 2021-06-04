@@ -3,9 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "antd-switch-value": [
-        "dist/antd-switch-value/antd-switch-value",
-        "dist/antd-switch-value"
+      "nz-switch-value": [
+        "dist/nz-switch-value/nz-switch-value",
+        "dist/nz-switch-value"
       ]
     },
     "baseUrl": "./",

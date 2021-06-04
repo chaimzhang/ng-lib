@@ -1,0 +1,30 @@
+{
+  "name": "nz-switch-value",
+  "version": "0.0.1",
+  "files": [
+    "README-zh_CN.md"
+  ],
+  "author": {
+    "name": "chaimzhang",
+    "url": "https://github.com/chaimzhang/ng-lib/tree/main/projects/nz-switch-value",
+    "email": "zhang.qm@qq.com"
+  },
+  "repository": {
+    "type": "github",
+    "directory": "projects/nz-switch-value",
+    "url": "https://github.com/chaimzhang/ng-lib"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "engines": {
+    "angular": ">=8"
+  },
+  "keywords": [
+    "angular",
+    "ng-zorro-antd",
+    "nz-switch",
+    "custom value"
+  ]
+}
